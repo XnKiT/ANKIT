@@ -76,21 +76,11 @@ async def promote(event, perm):
     await event.reply(f"Succesfully Demoted {input_str} in {event.chat.title}")
  
 
-
-
-
-    
-
-
-
-
-
 ADMIN_TEXT = """
 **✘ A module from which admins of the chat can use!**
 
 ‣ `?promote` - To Promote a user in the chat.
 ‣ `?demote` - To Demote a user in the chat.
-
 ‣ `?end` - To End music streaming.
 ‣ `?skip` - To Skip Tracks Going on.
 ‣ `?pause` - To Pause streaming. 
