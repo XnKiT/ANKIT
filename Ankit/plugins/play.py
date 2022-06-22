@@ -27,7 +27,7 @@ from youtubesearchpython import VideosSearch
  
 fotoplay = "https://telegra.ph/file/b6402152be44d90836339.jpg"
 ngantri = "https://telegra.ph/file/b6402152be44d90836339.jpg"
-from Ankit mport call_py, Ankit, client as Client
+from Ankit import call_py, Ankit, client as Client
 owner = "2127221861"
 from Ankit.helpers.yt_dlp import bash
 from Ankit.helpers.chattitle import CHAT_TITLE
