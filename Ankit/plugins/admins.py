@@ -76,21 +76,21 @@ async def promote(event, perm):
     await event.reply(f"Succesfully Demoted {input_str} in {event.chat.title}")
  
 
-@Ankit.on(events.NewMessage(pattern="^[!?/]invitelink"))
-async def invitelink(event):
 
-    if event.is_private:
-       await event.reply("This cmd is made to be used in groups, not in PM!")
-       return
-      link = await Ankit(ExportChatInviteRequest(event.chat_id))
-    await event.reply(f"Group link of {event.chat.title} is [here]({link.link})", link_preview=False)
+
+
+    
+
+
+
+
 
 ADMIN_TEXT = """
 **✘ A module from which admins of the chat can use!**
 
 ‣ `?promote` - To Promote a user in the chat.
 ‣ `?demote` - To Demote a user in the chat.
-‣ `?invitelink` - To get invitelink of a chat.
+
 ‣ `?end` - To End music streaming.
 ‣ `?skip` - To Skip Tracks Going on.
 ‣ `?pause` - To Pause streaming. 
