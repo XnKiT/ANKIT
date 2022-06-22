@@ -10,7 +10,7 @@ IMG = os.environ.get(
 ms = 27
 
 ALIVE = os.environ.get(
-    "ALIVE", "@XnKiTKumMaR"
+    "ALIVE", "@XnKiTKuMaR"
 )
 
 CAPTION = f"**꧁•⊹٭Ping٭⊹•꧂**\n\n   ⚜ {ms}\n   ⚜ ❝𝐌𝐲 𝐌𝐚𝐬𝐭𝐞𝐫❞ ~『{ALIVE}』"
