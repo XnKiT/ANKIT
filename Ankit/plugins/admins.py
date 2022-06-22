@@ -93,7 +93,7 @@ ADMIN_TEXT = """
 ‣ `?invitelink` - To get invitelink of a chat.
 ‣ `?end` - To End music streaming.
 ‣ `?skip` - To Skip Tracks Going on.
-‣ `?pause` - To Pause streaming.
+‣ `?pause` - To Pause streaming. 
 ‣ `?resume` - to Resume Streaming.
 ‣ `?leavevc` - force The Userbot to leave Vc Chat (Sometimes Joined).
 ‣ `?playlist` - to check playlists.
